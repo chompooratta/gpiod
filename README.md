@@ -1,12 +1,15 @@
 # gpiod
 📘 Introduction
+
 This project is written in JavaScript (Node.js) and uses the node-libgpiod library to control GPIO pins on a single-board computer — specifically the Raspberry Pi 3B.
 
 You can learn more about the library here: 
     🔗 https://www.npmjs.com/package/node-libgpiod
 
 🛠️ Getting Started
+
 Install Node.js
+
 You must install Node.js on your Raspberry Pi before running this script.
 Download it from the official website: 
     🔗 https://nodejs.org/en
@@ -24,6 +27,7 @@ To verify the installation:
 -------
 
 🔌 Blink LED with node-libgpiod
+
 This is a simple Node.js script for blinking an LED connected to a GPIO pin on a Linux system (e.g., Raspberry Pi) using the node-libgpiod library.
 
 📦 Requirements
@@ -41,6 +45,7 @@ Make sure you have libgpiod installed on your system:
     sudo apt install gpiod
 
 🖊️ Writing the Code with GNU nano
+
 This code was written using GNU nano on a Linux terminal for simplicity.
 The file blink.js was written using GNU nano, a simple terminal-based text editor.
 
@@ -66,9 +71,11 @@ To save and exit in nano:
 --------
 
 🌐 GPIO Web Control with Node.js
+
 Control GPIO pins (e.g., turn an LED on/off) via a simple web API using Node.js and node-libgpiod.
 
 📖 Description
+
 This project provides a minimal web server using Express.js that allows you to control a GPIO pin on a Linux system (such as a Raspberry Pi) through HTTP GET requests.
 
 It uses the node-libgpiod package, a Node.js wrapper for libgpiod, which interfaces with Linux GPIO via the character device interface.
@@ -98,6 +105,7 @@ You can test it via browser, curl, or Postman:
     curl http://localhost:3000/off
 
 How It Works
+
 The server:
 * Initializes GPIO chip 0
 * Accesses GPIO line 23 (can be changed)
@@ -112,6 +120,7 @@ The server:
 This project uses Node.js and the node-libgpiod library to control 4 GPIO pins on a Linux-based system (like Raspberry Pi, BeagleBone, or any board with GPIO support). It turns on two LEDs at a time in alternating pairs.
 
 💡 How It Works
+
 The script does the following:
 1. Initializes GPIO pins 23–26 as outputs.
 2. Defines two LED pairs.
@@ -119,6 +128,7 @@ The script does the following:
 This creates a clean "alternating blink" effect between the two pairs.
 
 🧾 Overview
+
 The script does the following:
 * Controls 4 GPIO pins: 23, 24, 25, 26
 * Alternates blinking between two pairs:
