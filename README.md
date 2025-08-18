@@ -17,6 +17,8 @@ You can also install it via terminal:
 To verify the installation:
     node -v
     npm -v
+    
+-------
 
 🔌 Blink LED with node-libgpiod
 This is a simple Node.js script for blinking an LED connected to a GPIO pin on a Linux system (e.g., Raspberry Pi) using the node-libgpiod library.
@@ -53,6 +55,7 @@ To save and exit in nano:
 * You can customize the pin number or blink count as needed.
 * For clean shutdown, consider handling SIGINT (Ctrl+C).
 
+--------
 
 🌐 GPIO Web Control with Node.js
 Control GPIO pins (e.g., turn an LED on/off) via a simple web API using Node.js and node-libgpiod.
@@ -90,8 +93,8 @@ The server:
 * Sets it to output mode
 * Listens on port 3000
 * Responds to HTTP requests by setting the GPIO line high or low
-
-
+  
+-------
 
 🔁 LED Pair Blinker with node-libgpiod
 This project uses Node.js and the node-libgpiod library to control 4 GPIO pins on a Linux-based system (like Raspberry Pi, BeagleBone, or any board with GPIO support). It turns on two LEDs at a time in alternating pairs.
