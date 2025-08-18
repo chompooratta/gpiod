@@ -108,6 +108,7 @@ The server:
 -------
 
 🔁 LED Pair Blinker with node-libgpiod
+
 This project uses Node.js and the node-libgpiod library to control 4 GPIO pins on a Linux-based system (like Raspberry Pi, BeagleBone, or any board with GPIO support). It turns on two LEDs at a time in alternating pairs.
 
 💡 How It Works
