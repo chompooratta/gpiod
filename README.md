@@ -175,6 +175,8 @@ This creates a simple alternating LED blinking pattern.
     node -v
     npm -v
 
+--------
+
 🔌 ทำให้ LED กระพริบด้วย node-libgpiod
 
 นี่คือตัวอย่างสคริปต์ Node.js สำหรับทำให้ LED ที่ต่อกับขา GPIO บนระบบ Linux (เช่น Raspberry Pi) กระพริบ โดยใช้ node-libgpiod
@@ -229,6 +231,8 @@ This creates a simple alternating LED blinking pattern.
 
 * หากต้องการปิดการทำงานอย่างปลอดภัย ให้รองรับสัญญาณ SIGINT (Ctrl+C)
 
+---------
+
 🌐 ควบคุม GPIO ผ่าน Web ด้วย Node.js
 
 สามารถควบคุม GPIO (เปิด/ปิด LED) ผ่าน Web API แบบง่ายๆ โดยใช้ Express.js และ node-libgpiod
@@ -261,6 +265,8 @@ This creates a simple alternating LED blinking pattern.
 
     curl http://localhost:3000/on
     curl http://localhost:3000/off
+
+-----------
 
 🔁 กระพริบ LED สลับคู่ (LED Pair Blinker)
 
