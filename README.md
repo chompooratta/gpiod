@@ -1,14 +1,13 @@
-######=# gpiod
-📘 Introduction
+# gpiod
+## 📘 Introduction
 
 This project is written in JavaScript (Node.js) and uses the node-libgpiod library to control GPIO pins on a single-board computer — specifically the Raspberry Pi 3B.
 
 You can learn more about the library here: 
     🔗 https://www.npmjs.com/package/node-libgpiod
 
-🛠️ Getting Started
-
-Install Node.js
+## 🛠️ Getting Started
+### Install Node.js
 
 You must install Node.js on your Raspberry Pi before running this script.
 Download it from the official website: 
@@ -26,17 +25,17 @@ To verify the installation:
     
 -------
 
-🔌 Blink LED with node-libgpiod
+# 🔌 Blink LED with node-libgpiod
 
 This is a simple Node.js script for blinking an LED connected to a GPIO pin on a Linux system (e.g., Raspberry Pi) using the node-libgpiod library.
 
-📦 Requirements
+## 📦 Requirements
 * Linux system with libgpiod installed (e.g., Raspberry Pi OS)
 * Node.js
 * node-libgpiod Node.js binding
 * LED connected to a GPIO pin (e.g., GPIO 23 with appropriate resistor)
 
-📁 Installation
+## 📁 Installation
     
     npm install node-libgpiod
 
@@ -44,7 +43,7 @@ Make sure you have libgpiod installed on your system:
     
     sudo apt install gpiod
 
-🖊️ Writing the Code with GNU nano
+## 🖊️ Writing the Code with GNU nano
 
 This code was written using GNU nano on a Linux terminal for simplicity.
 The file blink.js was written using GNU nano, a simple terminal-based text editor.
@@ -63,18 +62,18 @@ To save and exit in nano:
 * Press Enter to confirm
 * Press Ctrl + X to exit
 
-📌 Notes
+### 📌 Notes
 * The line is automatically released when the script exits.
 * You can customize the pin number or blink count as needed.
 * For clean shutdown, consider handling SIGINT (Ctrl+C).
 
 --------
 
-🌐 GPIO Web Control with Node.js
+# 🌐 GPIO Web Control with Node.js
 
 Control GPIO pins (e.g., turn an LED on/off) via a simple web API using Node.js and node-libgpiod.
 
-📖 Description
+## 📖 Description
 
 This project provides a minimal web server using Express.js that allows you to control a GPIO pin on a Linux system (such as a Raspberry Pi) through HTTP GET requests.
 
@@ -115,7 +114,7 @@ The server:
   
 -------
 
-🔁 LED Pair Blinker with node-libgpiod
+# 🔁 LED Pair Blinker with node-libgpiod
 
 This project uses Node.js and the node-libgpiod library to control 4 GPIO pins on a Linux-based system (like Raspberry Pi, BeagleBone, or any board with GPIO support). It turns on two LEDs at a time in alternating pairs.
 
@@ -127,7 +126,7 @@ The script does the following:
 3. In a loop, it turns off all LEDs, turns on one pair, then switches to the other after 300ms.
 This creates a clean "alternating blink" effect between the two pairs.
 
-🧾 Overview
+## 🧾 Overview
 
 The script does the following:
 * Controls 4 GPIO pins: 23, 24, 25, 26
@@ -137,7 +136,7 @@ The script does the following:
 * The active pair switches every 300 milliseconds
 This creates a simple alternating LED blinking pattern.
 
-📝 How to Run (on nano)
+## 📝 How to Run (on nano)
 1. Open terminal
 2. Create file using GNU nano:
 
@@ -149,14 +148,14 @@ This creates a simple alternating LED blinking pattern.
         node blink-led-pairs.js
 -------
 
-📘 บทนำ (Introduction)
+## 📘 บทนำ (Introduction)
 
 โปรเจกต์นี้เขียนด้วย JavaScript (Node.js) และใช้ไลบรารี node-libgpiod เพื่อควบคุมขา GPIO บนบอร์ดคอมพิวเตอร์ขนาดเล็ก — โดย Raspberry Pi 3B
 
 สามารถเรียนรู้เพิ่มเติมเกี่ยวกับไลบรารีได้ที่:
 🔗 https://www.npmjs.com/package/node-libgpiod
 
-🛠️ เริ่มต้นใช้งาน (Getting Started)
+## 🛠️ เริ่มต้นใช้งาน (Getting Started)
 ติดตั้ง Node.js
 
 ก่อนจะรันสคริปต์นี้ ต้องติดตั้ง Node.js ลงบน Raspberry Pi
@@ -177,11 +176,11 @@ This creates a simple alternating LED blinking pattern.
 
 --------
 
-🔌 ทำให้ LED กระพริบด้วย node-libgpiod
+# 🔌 ทำให้ LED กระพริบด้วย node-libgpiod
 
 นี่คือตัวอย่างสคริปต์ Node.js สำหรับทำให้ LED ที่ต่อกับขา GPIO บนระบบ Linux (เช่น Raspberry Pi) กระพริบ โดยใช้ node-libgpiod
 
-📦 สิ่งจำเป็น (Requirements)
+## 📦 สิ่งจำเป็น (Requirements)
 
 ระบบ Linux ที่ติดตั้ง libgpiod แล้ว (เช่น Raspberry Pi OS)
 
@@ -191,7 +190,7 @@ This creates a simple alternating LED blinking pattern.
 
 * LED ต่อเข้ากับ GPIO (เช่น GPIO 23 พร้อมตัวต้านทานที่เหมาะสม)
 
-📁 การติดตั้ง (Installation)
+## 📁 การติดตั้ง (Installation)
 
 ติดตั้งไลบรารี:
 
@@ -202,7 +201,7 @@ This creates a simple alternating LED blinking pattern.
 
     sudo apt install gpiod
 
-🖊️ เขียนโค้ดด้วย GNU nano
+## 🖊️ เขียนโค้ดด้วย GNU nano
 
 ไฟล์ blink.js ถูกเขียนด้วย GNU nano ซึ่งเป็น text editor บน Terminal
 
@@ -213,7 +212,7 @@ This creates a simple alternating LED blinking pattern.
 
 บันทึกและออกจาก nano:
 
-* กด Ctrl + O → เขียนไฟล์
+* กด Ctrl + O → เขียนไฟล์ บันทึก
 
 * กด Enter → ยืนยันชื่อไฟล์
 
@@ -223,7 +222,7 @@ This creates a simple alternating LED blinking pattern.
 
     node blink.js
 
-📌 หมายเหตุ (Notes)
+### 📌 หมายเหตุ (Notes)
 
 * ขา GPIO จะถูกปล่อยอัตโนมัติเมื่อสคริปต์จบการทำงาน
 
@@ -233,11 +232,11 @@ This creates a simple alternating LED blinking pattern.
 
 ---------
 
-🌐 ควบคุม GPIO ผ่าน Web ด้วย Node.js
+# 🌐 ควบคุม GPIO ผ่าน Web ด้วย Node.js
 
 สามารถควบคุม GPIO (เปิด/ปิด LED) ผ่าน Web API แบบง่ายๆ โดยใช้ Express.js และ node-libgpiod
 
-📖 คำอธิบาย (Description)
+## 📖 คำอธิบาย (Description)
 
 โปรเจกต์นี้สร้าง Web Server ขนาดเล็กด้วย Express.js ที่สามารถควบคุมขา GPIO ผ่าน HTTP GET requests
 
@@ -256,7 +255,7 @@ This creates a simple alternating LED blinking pattern.
 
     node gpio-server.js
 
-🌍 Endpoint ที่ใช้งานได้
+## 🌍 Endpoint ที่ใช้งานได้
 
     GET /on → เปิด GPIO (HIGH)
     GET /off → ปิด GPIO (LOW)
@@ -268,11 +267,11 @@ This creates a simple alternating LED blinking pattern.
 
 -----------
 
-🔁 กระพริบ LED สลับคู่ (LED Pair Blinker)
+# 🔁 กระพริบ LED สลับคู่ (LED Pair Blinker)
 
 สคริปต์นี้ใช้ Node.js และ node-libgpiod เพื่อควบคุม GPIO 4 ขา (23–26) และทำให้ LED 2 ดวงติดพร้อมกันแบบสลับคู่
 
-💡 วิธีการทำงาน
+## 💡 วิธีการทำงาน
 
 * กำหนด GPIO 23–26 เป็น Output
 
@@ -286,7 +285,7 @@ This creates a simple alternating LED blinking pattern.
 
 * จะได้เอฟเฟกต์กระพริบสลับกัน
 
-📝 วิธีรัน (ใช้ nano)
+## 📝 วิธีรัน (ใช้ nano)
 
 1. เปิด Terminal 
 2. สร้างไฟล์:
