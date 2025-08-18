@@ -43,7 +43,9 @@ Make sure you have libgpiod installed on your system:
 🖊️ Writing the Code with GNU nano
 This code was written using GNU nano on a Linux terminal for simplicity.
 The file blink.js was written using GNU nano, a simple terminal-based text editor.
+
 To create and edit the file, use the following command:
+
     nano blink.js
 
 
