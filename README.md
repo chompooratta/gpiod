@@ -1,4 +1,4 @@
-# gpiod
+######=# gpiod
 📘 Introduction
 
 This project is written in JavaScript (Node.js) and uses the node-libgpiod library to control GPIO pins on a single-board computer — specifically the Raspberry Pi 3B.
@@ -291,11 +291,11 @@ This creates a simple alternating LED blinking pattern.
 1. เปิด Terminal 
 2. สร้างไฟล์:
 
-    nano blink-led-pairs.js
+        nano blink-led-pairs.js
 
 
 3. วางโค้ด
 4. บันทึก (Ctrl+O, Enter) → ออก (Ctrl+X)
 5. รันไฟล์:
 
-    node blink-led-pairs.js
+        node blink-led-pairs.js
