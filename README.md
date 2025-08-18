@@ -80,6 +80,7 @@ This project provides a minimal web server using Express.js that allows you to c
 It uses the node-libgpiod package, a Node.js wrapper for libgpiod, which interfaces with Linux GPIO via the character device interface.
 
 This project was written using the nano text editor directly on a Linux terminal. If you'd like to create or edit the file the same way, follow these steps:
+
 Create the main file using nano
     
     nano gpio-server.js
