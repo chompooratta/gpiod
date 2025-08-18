@@ -3,12 +3,13 @@
 This project is written in JavaScript (Node.js) and uses the node-libgpiod library to control GPIO pins on a single-board computer — specifically the Raspberry Pi 3B.
 
 You can learn more about the library here: 
-🔗 https://www.npmjs.com/package/node-libgpiod
+    🔗 https://www.npmjs.com/package/node-libgpiod
 
 🛠️ Getting Started
 Install Node.js
 You must install Node.js on your Raspberry Pi before running this script.
-Download it from the official website:  🔗 https://nodejs.org/en
+Download it from the official website: 
+    🔗 https://nodejs.org/en
 
 You can also install it via terminal:
         
