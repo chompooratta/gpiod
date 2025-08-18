@@ -147,6 +147,7 @@ This creates a simple alternating LED blinking pattern.
 5. Run the script:
 
         node blink-led-pairs.js
+-------
 
 📘 บทนำ (Introduction)
 
