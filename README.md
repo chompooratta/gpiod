@@ -1,4 +1,3 @@
-# gpiod
 ## 📘 Introduction
 
 This project is written in JavaScript (Node.js) and uses the node-libgpiod library to control GPIO pins on a single-board computer — specifically the Raspberry Pi 3B.
