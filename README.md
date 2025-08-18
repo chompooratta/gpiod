@@ -118,8 +118,8 @@ This creates a simple alternating LED blinking pattern.
 📝 How to Run (on nano)
 1. Open terminal
 2. Create file using GNU nano:
-   nano blink-led-pairs.js 
+        nano blink-led-pairs.js 
 4. Paste the code above into the file
 5. Save and exit (Ctrl + O, Enter, then Ctrl + X)
 6. Run the script:
-   node blink-led-pairs.js
+    node blink-led-pairs.js
