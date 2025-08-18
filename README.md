@@ -11,10 +11,12 @@ You must install Node.js on your Raspberry Pi before running this script.
 Download it from the official website:  🔗 https://nodejs.org/en
 
 You can also install it via terminal:
+        
     sudo apt update
     sudo apt install nodejs npm
 
 To verify the installation:
+    
     node -v
     npm -v
     
@@ -30,9 +32,11 @@ This is a simple Node.js script for blinking an LED connected to a GPIO pin on a
 * LED connected to a GPIO pin (e.g., GPIO 23 with appropriate resistor)
 
 📁 Installation
+    
     npm install node-libgpiod
 
 Make sure you have libgpiod installed on your system:
+    
     sudo apt install gpiod
 
 🖊️ Writing the Code with GNU nano
@@ -43,6 +47,7 @@ To create and edit the file, use the following command:
 
 
 Run the Script
+
     node blink.js
 
 To save and exit in nano:
@@ -67,6 +72,7 @@ It uses the node-libgpiod package, a Node.js wrapper for libgpiod, which interfa
 
 This project was written using the nano text editor directly on a Linux terminal. If you'd like to create or edit the file the same way, follow these steps:
 Create the main file using nano
+    
     nano gpio-server.js
 
 Paste the code, then:
@@ -76,6 +82,7 @@ Paste the code, then:
 
 
 Run the server
+
     node gpio-server.js
 
 Available HTTP Endpoints
@@ -83,6 +90,7 @@ Available HTTP Endpoints
 * GET /off – Turn GPIO pin OFF (set to LOW)
 
 You can test it via browser, curl, or Postman:
+        
     curl http://localhost:3000/on
     curl http://localhost:3000/off
 
@@ -119,9 +127,9 @@ This creates a simple alternating LED blinking pattern.
 1. Open terminal
 2. Create file using GNU nano:
 
-    nano blink-led-pairs.js 
+        nano blink-led-pairs.js 
 3. Paste the code above into the file
 4. Save and exit (Ctrl + O, Enter, then Ctrl + X)
 5. Run the script:
 
-    node blink-led-pairs.js
+        node blink-led-pairs.js
