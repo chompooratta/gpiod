@@ -103,8 +103,7 @@ You can test it via browser, curl, or Postman:
     curl http://localhost:3000/on
     curl http://localhost:3000/off
 
-How It Works
-
+## How It Works
 The server:
 * Initializes GPIO chip 0
 * Accesses GPIO line 23 (can be changed)
@@ -118,8 +117,7 @@ The server:
 
 This project uses Node.js and the node-libgpiod library to control 4 GPIO pins on a Linux-based system (like Raspberry Pi, BeagleBone, or any board with GPIO support). It turns on two LEDs at a time in alternating pairs.
 
-💡 How It Works
-
+## 💡 How It Works
 The script does the following:
 1. Initializes GPIO pins 23–26 as outputs.
 2. Defines two LED pairs.
@@ -127,7 +125,6 @@ The script does the following:
 This creates a clean "alternating blink" effect between the two pairs.
 
 ## 🧾 Overview
-
 The script does the following:
 * Controls 4 GPIO pins: 23, 24, 25, 26
 * Alternates blinking between two pairs:
