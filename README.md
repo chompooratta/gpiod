@@ -253,9 +253,8 @@ This creates a simple alternating LED blinking pattern.
     node gpio-server.js
 
 ## 🌍 Endpoint ที่ใช้งานได้
-
-    GET /on → เปิด GPIO (HIGH)
-    GET /off → ปิด GPIO (LOW)
+* GET /on → เปิด GPIO (HIGH)
+* GET /off → ปิด GPIO (LOW)
 
 ทดสอบได้ผ่าน Browser, curl หรือ Postman:
 
